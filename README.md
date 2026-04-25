@@ -58,14 +58,6 @@ g++ -o EmployeeMS main.cpp
 ```
 
 ---
-
-## ⚠️ Limitations
-
-- **In-memory only** — All data is lost when the program exits (no file/database persistence)
-- **Windows only** — Uses Windows-specific APIs (`Sleep`, `system("CLS")`, `conio.h`)
-- **Max 100 employees** per session
-- Uses `goto` for login loop (works, but considered poor practice in modern C++)
-
 ---
 
 ## 🔮 Possible Improvements
